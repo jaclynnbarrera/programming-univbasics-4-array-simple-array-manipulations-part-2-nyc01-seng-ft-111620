@@ -18,7 +18,7 @@ def using_delete(array, string)
   array.delete_if{|string| string==string}
 end
 
-def using_delete_at(array, integer)
-  array.delete_at(integer.to_i == integer.to_i)
+def using_delete_at(array, integer.to_i)
+  array.delete_at(integer.to_i)
   
 end 
