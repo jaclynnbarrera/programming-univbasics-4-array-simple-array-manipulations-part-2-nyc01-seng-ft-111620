@@ -15,5 +15,5 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  array.delete_if{|string|
+  array.delete_if{|string| string==string}
 end
